@@ -1,5 +1,6 @@
 body {
 	background: rgb(238, 238, 238) url(../../img/bg.jpg);
+	overflow-y: hidden;
 }
 
 .rainbowDash {
@@ -39,8 +40,13 @@ body {
 	padding: 10px 20px;
 }
 .navbar .nav > li > a {
-	padding: 20px 30px;
+	padding: 20px 0;
 	font-weight: normal;
+	width: 86px;
+	text-align: center;
+	border-left: 1px solid #e3e3e3;
+	border-right: 1px solid #fff;
+	transition: all 0.3s linear 0s;
 }
 .navbar .nav > li > a:hover {
 	color: #0099CC;

@@ -8,7 +8,9 @@
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bs_4_mu.css" />
 	<link rel="stylesheet" type="text/css" href="css/index/nav.css" />
 	<style type="text/css">
-		
+		.container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
+			width: 1000px;
+		}
 		
 	</style>
 	
@@ -34,9 +36,14 @@
 	                  	<img alt="Model University" src="img/logo.gif" />
 	                  </a>
 	                  <ul class="nav">
-	                    <li class="active"><a href="javascript: void(0);">Home</a></li>
-	                    <li><a href="javascript: void(0);">Link</a></li>
-	                    <li><a href="javascript: void(0);">Link</a></li>
+	                    <li class="active"><a href="javascript: void(0);"  style="border-left: none;">首页</a></li>
+	                    <li><a href="javascript: void(0);">家长大学</a></li>
+	                    <li><a href="javascript: void(0);">优才招聘</a></li>
+	                    <li><a href="javascript: void(0);">励志</a></li>
+	                    <li><a href="javascript: void(0);">师哥师姐</a></li>
+	                    <li><a href="javascript: void(0);">参加活动</a></li>
+	                    <li><a href="javascript: void(0);">报名申请</a></li>
+	                    <li><a href="javascript: void(0);" style="border-right: none;">联系我们</a></li>
 	                  </ul>
 	                </div>
 	              </div>
@@ -44,14 +51,22 @@
 	            
     		</div>
     	</div>
+    	<div class="row-fluid">
+    		<div class="span12">
+    			
+    			
+    			
+    		</div>
+    	</div>
     </div>
     
     <!-- Pandaroid: Put js at bottom to load faster -->
     <script type="text/javascript" src="jquery/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
     <script	type="text/javascript">
 		(function($) {
 			$(function() {
+				
 				
 			});
 		})(jQuery);
