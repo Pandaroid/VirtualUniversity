@@ -3,7 +3,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
   <head>
-    <title>模拟大学 - 首页</title>
+    <title>模拟大学 - 优才招聘</title>
 	 
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bs_4_mu.css" />
 	<style type="text/css">
@@ -29,7 +29,7 @@
     	</div>
     	<div class="row-fluid">
     		<div class="span12">
-    			主页
+    			优才招聘
     			
     			
     		</div>
@@ -41,7 +41,7 @@
     <script	type="text/javascript">
 		(function($) {
 			$(function() {
-				$("#nav-index").addClass("active");
+				$("#nav-talentsRecruitment").addClass("active");
 				
 			});
 		})(jQuery);
