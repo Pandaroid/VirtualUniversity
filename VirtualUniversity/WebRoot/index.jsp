@@ -29,9 +29,9 @@
     	</div>
     	<div class="row-fluid">
     		<div class="span12">
-    			主页
-    			
-    			
+    			<!-- Start: 轮播 -->
+    			<%@ include file="WEB-INF/pages/index/carousel.jsp"%>
+    			<!-- End  : 轮播 -->
     		</div>
     	</div>
     </div>
