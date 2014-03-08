@@ -37,7 +37,7 @@
     </div>
     
     <!-- Pandaroid: Put js at bottom to load faster -->
-    <script type="text/javascript" src="jquery/jquery-1.11.0.min.js"></script>
+    <!-- <script type="text/javascript" src="jquery/jquery-1.11.0.min.js"></script> -->
     <script	type="text/javascript">
 		(function($) {
 			$(function() {
