@@ -5,6 +5,7 @@
   <head>
     <title>模拟大学 - 主页轮播</title>
 	 
+	<link rel='stylesheet' id='style-css'  href='tools/carousel/diapo.css' type='text/css' media='all' />
 	<style type="text/css">
 		section {
 			display: block;
@@ -121,119 +122,54 @@
 			padding: 5px 0;
 		}
 		.price_table div.pix_check {
-			background: url(images/demo/list-check-green.png) no-repeat 15px center;
+			background: url(tools/carousel/images/demo/list-check-green.png) no-repeat 15px center;
 		    padding-left: 38px!important;
 		}
 		.price_table div.pix_error {
-			background: url(images/demo/list-error.png) no-repeat 15px center;
+			background: url(tools/carousel/images/demo/list-error.png) no-repeat 15px center;
 		    padding-left: 38px!important;
 		}
+		.pix_diapo .caption { width: 920px; }
 	</style>
 	
   </head>
   
   <body>
     <section> 
-    	<div style="overflow:hidden; width:960px; margin: 10px auto; padding:0 20px;"> 
+    	<div style="overflow:hidden; width:960px; margin: 15px auto; padding:0 20px;"> 
                 <div class="pix_diapo">
-
-                    <div data-thumb="images/thumbs/megamind1048.jpg">
-                        <img src="images/slides/megamind1048.jpg">
+					<div data-thumb="tools/carousel/images/thumbs/ratatouille2.jpg" data-time="7000">
+                        <img src="img/carousel/carousel-4.jpg" />
                         <div class="caption elemHover fromLeft">
-                            This is a simple sliding image with caption. You can have more than one caption and decide the layout of the caption via css.
+                            2013年夏，模拟大学圆满成功！
                         </div>
                     </div>
                     
-                    <div data-thumb="images/thumbs/megamind_07.jpg">
-                        <img src="images/slides/megamind_07.jpg"> 
-                        <div class="caption elemHover fromRight" style="bottom:65px; padding-bottom:5px; color:#ff0; text-transform:uppercase">
-                            Here you can see two captions.
-                        </div>
-                        <div class="caption elemHover fromLeft" style="padding-top:5px;">
-                            The first are loaded immediately before than the second one
+                    <div data-thumb="tools/carousel/images/thumbs/megamind1048.jpg" data-time="7000">
+                        <img src="img/carousel/carousel-1.jpg" />
+                        <div class="caption elemHover fromLeft">
+                            2014年冬，模拟大学圆满成功！
                         </div>
                     </div>
                     
-                    <div data-thumb="images/thumbs/wall-e.jpg" data-time="7000">
-                        <img src="images/slides/wall-e.jpg">
-                        <div class="elemHover caption fromLeft" style="bottom:70px; width:auto; -webkit-border-top-right-radius: 6px; -webkit-border-bottom-right-radius: 6px; -moz-border-radius-topright: 6px; -moz-border-radius-bottomright: 6px; border-top-right-radius: 6px; border-bottom-right-radius: 6px;">
-                            You can also get the same effect as the caption with:
+                    <div data-thumb="tools/carousel/images/thumbs/megamind_07.jpg" data-time="7000">
+                        <img src="img/carousel/carousel-2.jpg"> 
+                        <div class="caption elemHover fromRight" style="bottom: 25px; padding-bottom:0; color:#0099FF; text-transform:uppercase;">
+                            我的中国梦，成才梦
                         </div>
-                        <div class="elemHover button fromTop" data-easing="easeOutExpo" style="left:388px; bottom:78px;">
-                            A button
-                        </div>
-                        <div class="elemHover button button2 fromBottom" data-easing="easeOutExpo" style="left:512px; bottom:78px;">
-                            Or two buttons
-                        </div>
-                        <div class="elemHover fadeIn" style="left:600px; bottom:auto; top:0; padding-top:50px; color:#ff0; font-size:13px; line-height:20px; width:auto; -webkit-border-top-right-radius: 6px; -webkit-border-bottom-right-radius: 6px; -moz-border-radius-topright: 6px; -moz-border-radius-bottomright: 6px; border-top-right-radius: 6px; border-bottom-right-radius: 6px; background:url(images/demo/arrow_caption.png) no-repeat 230px 30px">
-                            Or any other html element...<br>
-                            and you can decide the transition time of any slide
+                        <div class="caption elemHover fromLeft" style="padding-top: 0;">
+                            百校励志巡讲，正在进行中 ...
                         </div>
                     </div>
                     
-                    <div data-thumb="images/thumbs/up-official-trailer-fake.jpg">
-                        <iframe width="940" height="470" src="http://www.youtube.com/embed/qas5lWp7_R0?wmode=transparent&autoplay=1" data-fake="images/slides/up-official-trailer-fake.jpg" frameborder="0" allowfullscreen></iframe>
-                        <div class="elemHover caption fromLeft elemToHide" style="bottom: 350px; width:auto; -webkit-border-top-right-radius: 6px; -webkit-border-bottom-right-radius: 6px; -moz-border-radius-topright: 6px; -moz-border-radius-bottomright: 6px; border-top-right-radius: 6px; border-bottom-right-radius: 6px; left:0">
-                            You can also display videos, but it requires a "fake image"... read the documentation please
+                    <div data-thumb="tools/carousel/images/thumbs/wall-e.jpg" data-time="7000">
+                        <img src="img/carousel/carousel-3.jpg">
+                        <div class="caption elemHover fromRight" style="bottom: 25px; padding-bottom:0; color:#0099FF; text-transform:uppercase;">
+                            关注我们
                         </div>
-                    </div>
-                    
-                    <div data-thumb="images/thumbs/big_buck_bunny.jpg" data-time="7000">
-                        <div style="position:absolute; top:0; left:0; width:900px; height:430px; padding:20px; background:#fff; color:#222;">
-                        	<div style="float:left; width:300px;">
-                                <p><br><br>You can display any html element directly in the slider, but pay attention, with many elements the transition effect could be slowed.<br>
-                                In this case you can see a Vimeo video and a price table</p>
-                                <iframe src="http://player.vimeo.com/video/1084537?title=0&amp;byline=0&amp;portrait=0&amp;color=f0bc00&amp;autoplay=1" data-fake="images/slides/big_buck_bunny.jpg" width="300" height="169" frameborder="0"></iframe>
-                            </div>
-                            <div class="price_table"><div>
-                                <div class="price_column highlighted" style="top:0; left:190px; height:387px; background:#fff; -moz-box-shadow: 0 1px 4px #666;	-webkit-box-shadow: 0 1px 4px #666; box-shadow: 0 1px 4px #666;"><div>
-                                </div></div><!-- .price_column --> 
-                                <div class="price_column" style="top:0; left:0; height:383px; background:#ddd; -moz-box-shadow: 0 1px 4px #666;	-webkit-box-shadow: 0 1px 4px #666; box-shadow: 0 1px 4px #666;"><div> 
-                                </div></div><!-- .price_column --> 
-                                <div class="price_column" style="top:0; left:380px; height:383px; background:#ddd; -moz-box-shadow: 0 1px 4px #666;	-webkit-box-shadow: 0 1px 4px #666; box-shadow: 0 1px 4px #666;"><div>
-                                </div></div><!-- .price_column -->
-                                <div class="price_column highlighted fadeIn" style="top:0; left:190px;"><div>
-                                    <div class="price_title">Standard</div><!-- .price_title --> 
-                                    <div class="price_price">$9/mo.</div><!-- .price_price --> 
-                                    <div class="price_explanation">And as the day advanced and the engine drivers</div><!-- .price_explanation --> 
-                                    <div class="pix_check">Check sign</div><!-- .pix_check --> 
-                                    <div class="pix_check">Check sign</div><!-- .pix_check --> 
-                                    <div class="pix_check">Check sign</div><!-- .pix_check --> 
-                                    <div class="pix_error">Error sign</div><!-- .pix_error --> 
-                                    <div>
-                                        <a class="button button3" href="#">Purchase</a>
-                                    </div>
-                                </div></div><!-- .price_column --> 
-                                <div class="price_column fromTop" style="top:0; left:0"><div> 
-                                    <div class="price_title">Basic</div><!-- .price_title --> 
-                                    <div class="price_price">Free</div><!-- .price_price --> 
-                                    <div class="price_explanation">And as the day advanced and the engine drivers</div><!-- .price_explanation --> 
-                                    <div class="pix_check">Check sign</div><!-- .pix_check --> 
-                                    <div class="pix_error">Error sign</div><!-- .pix_error --> 
-                                    <div class="pix_check">Check sign</div><!-- .pix_check --> 
-                                    <div class="pix_error">Error sign</div><!-- .pix_error --> 
-                                    <div>
-                                        <a class="button" href="#">Purchase</a>
-                                    </div> 
-                                </div></div><!-- .price_column --> 
-                                <div class="price_column fromBottom" style="top:0; left:380px;"><div>
-                                    <div class="price_title">Professional</div><!-- .price_title --> 
-                                    <div class="price_price">$19/mo.</div><!-- .price_price --> 
-                                    <div class="price_explanation">And as the day advanced and the engine drivers</div><!-- .price_explanation --> 
-                                    <div class="pix_check">Check sign</div><!-- .pix_check --> 
-                                    <div class="pix_check">Check sign</div><!-- .pix_check --> 
-                                    <div class="pix_check">Check sign</div><!-- .pix_check --> 
-                                    <div class="pix_check">Check sign</div><!-- .pix_check --> 
-                                    <div>
-                                        <a class="button" href="#">Purchase</a>
-                                    </div> 
-                                </div></div><!-- .price_column --> 
-                            </div></div><!-- price_table -->
+                        <div class="caption elemHover fromLeft" style="padding-top:0;">
+                            未来在手中，优普模拟大学微信平台
                         </div>
-                    </div>
-                    
-                    <div data-thumb="images/thumbs/ratatouille2.jpg">
-                        <img src="images/slides/ratatouille2.jpg">
                     </div>
                     
                </div><!-- #pix_diapo -->
@@ -241,12 +177,11 @@
     </section>
     
     <!-- Pandaroid: Put js at bottom to load faster -->
-    <link rel='stylesheet' id='style-css'  href='diapo.css' type='text/css' media='all'> 
 	<script type="text/javascript" src="jquery/jquery-1.11.0.min.js"></script>
 	<script type="text/javascript" src="jquery/jquery-migrate-1.2.1.js"></script>
-	<script type='text/javascript' src='scripts/jquery.easing.1.3.js'></script> 
-	<script type='text/javascript' src='scripts/jquery.hoverIntent.minified.js'></script> 
-	<script type='text/javascript' src='scripts/diapo.js'></script>
+	<script type='text/javascript' src='tools/carousel/scripts/jquery.easing.1.3.js'></script> 
+	<script type='text/javascript' src='tools/carousel/scripts/jquery.hoverIntent.minified.js'></script> 
+	<script type='text/javascript' src='tools/carousel/scripts/diapo.js'></script>
     <script	type="text/javascript">
 		(function($) {
 			$(function() {

@@ -1,13 +1,12 @@
 .pix_diapo {
-	background: #000;
+	background: #fff;
 	-moz-box-shadow: 0 3px 6px #000;
 	-webkit-box-shadow: 0 3px 6px #000;
 	box-shadow: 0 3px 6px #000;
-	height: 470px;
-	margin: 0 10px;
+	height: 296px;
 	overflow: hidden;
 	position: relative;
-	width: 940px;
+	width: 960px;
 }
 .pix_diapo > div {
 	display: none;
@@ -107,7 +106,7 @@
 	width: 8px;
 }
 #pix_pag_ul > li.diapocurrent > span > span {
-	background: #ff0;
+	background: #0099FF;
 	-webkit-border-radius: 8px;
 	-moz-border-radius: 8px;
 	border-radius: 8px;
@@ -138,6 +137,7 @@
 .pix_relativize {
 	overflow: hidden;
 	position: relative;
+	text-align: right;
 }
 .imgFake {
 	cursor: pointer;
@@ -149,11 +149,11 @@
 	background: rgba(0, 0, 0, 0.8);
     .filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#cc000000, endColorstr=#cc000000);
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#cc000000, endColorstr=#cc000000)\9;
-	bottom: 20px;
+	bottom: 0;
 	color: #fff;
 	display: block;
 	font-size: 13px;
-	padding: 20px;
+	padding: 5px 20px;
 	width: 900px;
 }
 .ui-loader {

@@ -23,7 +23,7 @@
     	<div class="row-fluid">
     		<div class="span12">
     			<!-- Start: 引入导航栏 -->
-    			<%@ include file="nav.jsp"%>
+    			<%@ include file="WEB-INF/pages/global/nav.jsp"%>
 	            <!-- End  : 引入导航栏 -->
     		</div>
     	</div>

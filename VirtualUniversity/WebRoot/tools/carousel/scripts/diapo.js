@@ -25,7 +25,7 @@
 		
 		loaderOpacity		: .8,	//0, .1, .2, .3, .4, .5, .6, .7, .8, .9, 1
 		
-		loaderColor			: '#ffff00', 
+		loaderColor			: '#0099FF', 
 		
 		loaderBgColor		: '#222222', 
 		
