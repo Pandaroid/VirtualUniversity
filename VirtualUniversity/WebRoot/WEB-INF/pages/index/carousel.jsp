@@ -136,23 +136,23 @@
   
   <body>
     <section> 
-    	<div style="overflow:hidden; width:960px; margin: 15px auto; padding:0 20px;"> 
+    	<div style="overflow:hidden; width:960px; margin: 20px auto; padding:0 20px;"> 
                 <div class="pix_diapo">
-					<div data-thumb="tools/carousel/images/thumbs/ratatouille2.jpg" data-time="7000">
+					<div data-thumb="img/carousel/thumbs/carousel-4.jpg" data-time="7000">
                         <img src="img/carousel/carousel-4.jpg" />
                         <div class="caption elemHover fromLeft">
                             2013年夏，模拟大学圆满成功！
                         </div>
                     </div>
                     
-                    <div data-thumb="tools/carousel/images/thumbs/megamind1048.jpg" data-time="7000">
+                    <div data-thumb="img/carousel/thumbs/carousel-1.jpg" data-time="7000">
                         <img src="img/carousel/carousel-1.jpg" />
                         <div class="caption elemHover fromLeft">
                             2014年冬，模拟大学圆满成功！
                         </div>
                     </div>
                     
-                    <div data-thumb="tools/carousel/images/thumbs/megamind_07.jpg" data-time="7000">
+                    <div data-thumb="img/carousel/thumbs/carousel-2.jpg" data-time="7000">
                         <img src="img/carousel/carousel-2.jpg"> 
                         <div class="caption elemHover fromRight" style="bottom: 25px; padding-bottom:0; color:#0099FF; text-transform:uppercase;">
                             我的中国梦，成才梦
@@ -162,7 +162,7 @@
                         </div>
                     </div>
                     
-                    <div data-thumb="tools/carousel/images/thumbs/wall-e.jpg" data-time="7000">
+                    <div data-thumb="img/carousel/thumbs/carousel-3.jpg" data-time="7000">
                         <img src="img/carousel/carousel-3.jpg">
                         <div class="caption elemHover fromRight" style="bottom: 25px; padding-bottom:0; color:#0099FF; text-transform:uppercase;">
                             关注我们
