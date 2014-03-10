@@ -17,6 +17,29 @@
 		.video-title a, .video-title a:focus { text-decoration: none; color: #036; }
 		.more-btn, .more-btn:focus { text-decoration: none; display: block; background: #0b233d; padding: 5px 20px; margin-top: 10px; text-align: center; width: 60px; cursor: pointer; color: #fff; font-size: 12px; }
 		.more-btn:hover { background:#036; color: #fff; }
+		
+		.news-cell { margin-left: 50px; margin-bottom: 10px; }
+		.news-title { display: block; font-size: 14px; padding: 10px 0 5px 0; color: #036; }
+		.news-date { display: block; color: #999; font-size: 12px; font-style: italic; padding: 0px 0 2px; }
+		
+		.index_pic { list-style: none; margin-left: 44px; }
+		.index_pic li {
+			display: inline-block;
+			width: 70px;
+			margin: 0 7px;
+		}
+		.index_pic li a {
+			display: block;
+			width: 70px;
+			height: 70px;
+			overflow: hidden;
+			position: relative;
+		}
+		.index_pic li a img {
+			width: 70px;
+			height: 70px;
+			vertical-align: middle;
+		}
 	</style>
 	
 	<link rel="icon" type="image/x-icon" href="favicon.ico" />
@@ -43,7 +66,7 @@
     	<div class="row-fluid" >
     		<div style="width: 960px; height: 1px; margin: 0 auto; border-top: 1px solid #d8d8d8;"></div>
     		<!-- Start: 视频、新闻等信息展示 -->
-    		<div class="span8">
+    		<div class="span8" style='width: 638px;'>
     			<div class="row-fluid">
     				<div class="span12">
     					<a class="detail-link" href="http://www.modeluniv.com/index.php?m=Page&a=index&id=1" target="_blank">
@@ -63,14 +86,14 @@
     			<div class="row-fluid">
     				<div style="width: 100%; height: 23px; margin-top: 10px; border-top: 1px solid #d8d8d8;"></div>
     				<div class="span6" style="margin-left: 0;">
-    					<embed src="http://player.youku.com/player.php/sid/XNjEyMzI4Mjky/v.swf" quality="high" width="323" height="222" align="middle" allowScriptAccess="always" allowFullScreen="true" mode="transparent" type="application/x-shockwave-flash"></embed>
+    					<embed src="http://player.youku.com/player.php/sid/XNjEyMzI4Mjky/v.swf" quality="high" width="312" height="215.5" align="middle" allowScriptAccess="always" allowFullScreen="true" mode="transparent" type="application/x-shockwave-flash"></embed>
     					<div class="video-title">
     						<a href="http://www.modeluniv.com/index.php?m=Article&amp;a=show&amp;id=4" target="_blank">优谱模拟大学学员感想</a>
     					</div>
     					<a class="more-btn" href="http://www.modeluniv.com/index.php?m=Article&a=index&id=3" target="_blank">更多内容</a>
     				</div>
     				<div class="span6">
-    					<embed src="http://player.youku.com/player.php/sid/XNTY2NjkwNjMy/v.swf" quality="high" width="323" height="222" align="middle" allowScriptAccess="always" allowFullScreen="true" mode="transparent" type="application/x-shockwave-flash"></embed>
+    					<embed src="http://player.youku.com/player.php/sid/XNTY2NjkwNjMy/v.swf" quality="high" width="312" height="215.5" align="middle" allowScriptAccess="always" allowFullScreen="true" mode="transparent" type="application/x-shockwave-flash"></embed>
     					<div class="video-title">
     						<a href="http://www.modeluniv.com/index.php?m=Article&a=show&id=3" target="_blank">优谱模拟大学活动视频</a>
     					</div>
@@ -78,8 +101,54 @@
     				</div>
     			</div>
     		</div>
-    		<div class="span4">
-    			
+    		<div class="span4" style="width: 300px;">
+    			<div class="row-fluid">
+    				<div class="span12">
+    					<h2 style="font-weight: normal; font-size: 20px; line-height: 40px; color: #036; margin-bottom: 8px;">
+							新闻推送
+						</h2>
+						<div class="news-cell">
+							<a href="http://www.modeluniv.com/index.php?m=Article&amp;a=show&amp;id=23" target="_blank">
+								<span class="news-title" style="padding-top: 0;">优谱模拟大学辅导员招聘海报</span>
+								<span class="news-date">2013-11-29</span>
+								<span class="news-txt">经实地考察发现，在校园宣传栏贴海报就像往湖面扔了一块石子，虽然刚开始会激起一点涟漪，但用不了多久，就会归于平静，仿佛什么都没发生过。因此，你...</span>
+							</a>
+						</div>
+						<div class="news-cell">
+							<a href="http://www.modeluniv.com/index.php?m=Article&a=show&id=22" target="_blank">
+								<span class="news-title">模拟大学-辅导员招聘</span>
+								<span class="news-date">2013-11-26</span>
+								<span class="news-txt">这个寒假怎么过，来优谱模拟大学做点有意义的事吧！ 插入视频链接：你在高中时是否也有过迷茫、困惑的时候，在学习上是否也有制胜的方法，在大学和专...</span>
+							</a>
+						</div>
+						<div class="news-cell">
+							<a href="http://www.modeluniv.com/index.php?m=Article&a=show&id=21" target="_blank">
+								<span class="news-title">模拟大学-如何做学业规划</span>
+								<span class="news-date">2013-11-25</span>
+								<span class="news-txt">模拟大学-如何做学业规划 每次给高中生讲学业规划的时候，很多人的反应都是不知道什么是学业规划，该如何规划，还有的说经常规划，但是每次都执行不...</span>
+							</a>
+						</div>
+						<ul class="index_pic">
+							<li>
+								<a href="http://www.modeluniv.com/index.php?m=Article&amp;a=index&amp;id=3">
+									<img src="img/indexPic/index-pic-1.jpg">
+								</a>
+							</li>
+							<li>
+								<a href="http://www.modeluniv.com/index.php?m=Article&amp;a=index&amp;id=3">
+									<img src="img/indexPic/index-pic-2.jpg">
+								</a>
+							</li>
+							<li style="margin-right: 0;">
+								<a href="http://www.modeluniv.com/index.php?m=Article&amp;a=index&amp;id=3">
+									<img src="img/indexPic/index-pic-3.jpg">
+								</a>
+							</li>
+						</ul>
+						
+    				</div>
+    			</div>
+	    			
     		</div>
     		<!-- End  : 视频、新闻等信息展示 -->
     	</div>
