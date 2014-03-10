@@ -7,9 +7,11 @@
 	 
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bs_4_mu.css" />
 	<style type="text/css">
-		.container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
+		.container-fluid, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
 			width: 1000px;
+			margin: 0 auto;
 		}
+		.container-fluid { background-color: #eee; padding: 0; }
 		a { color:#666666; text-decoration: none; }
 		a:hover { color: #006699; text-decoration: none; }
 		
@@ -24,6 +26,8 @@
 		
 		.index_pic { list-style: none; margin-left: 44px; }
 		.index_pic li {
+			display: inline;
+			zoom: 1;
 			display: inline-block;
 			width: 70px;
 			margin: 0 7px;
@@ -44,6 +48,25 @@
 		.schools-title {
 			font-size: 14px; padding: 10px 0 5px 0; color: #036;
 		}
+		
+		.footer_nav {
+			margin-top: 25px;
+			padding-left: 75px;
+		}
+		.footer_nav dl {
+			float: left;
+			width: 130px;
+		}
+		.footer_nav dl dt, .footer_nav dl dt a {
+			color: #ccc;
+			font-size: 14px;
+		}
+		.footer_nav dl dt { margin-bottom: 10px; }
+		.footer_nav dl dd, .footer_nav dl dd a {
+			color: #999;
+			line-height: 18px;
+		}
+		.footer_nav dl dd { margin-left: 0; }
 	</style>
 	
 	<link rel="icon" type="image/x-icon" href="favicon.ico" />
@@ -52,7 +75,7 @@
   </head>
   
   <body>
-    <div class="container">
+    <div class="container-fluid">
     	<div class="row-fluid">
     		<div class="span12">
     			<!-- Start: 引入导航栏 -->
@@ -156,7 +179,7 @@
     		</div>
     		<!-- End  : 视频、新闻等信息展示 -->
     	</div>
-    	<div class="row-fluid">
+    	<div class="row-fluid" style="margin-bottom: 25px;">
     		<div style="width: 960px; height: 1px; margin: 0 auto; border-top: 1px solid #d8d8d8;"></div>
     		<!-- Start: 合作学校信息 -->
     		<div class="span12" style="width: 960px;">
@@ -169,7 +192,58 @@
     		</div>
     		<!-- End  : 合作学校信息 -->
     	</div>
+    </div>
+    <div class="container-fluid" style="background-color: #282828;">
+    	<div class="row-fluid">
+    		<div class="span12">
+    			<!-- Start: footer信息 -->
+    			<div class="footer_nav">
+					<dl>
+						<dt><a href="javascript: void(0);">首页</a></dt>
+						<dd><a href="javascript: void(0);">活动简介</a></dd>
+						<dd><a href="javascript: void(0);">活动视频</a></dd>
+						<dd><a href="javascript: void(0);">模大资讯</a></dd>
+					</dl>
+					<dl>
+						<dt><a href="javascript: void(0);">品牌</a></dt>
+						<dd><a href="javascript: void(0);">模拟大学</a></dd>
+						<dd><a href="javascript: void(0);">公益活动</a></dd>
+						<dd><a href="javascript: void(0);">发展历程</a></dd>
+					</dl>
+					<dl>
+						<dt><a href="javascript: void(0);">教学系统</a></dt>
+						<dd><a href="javascript: void(0);">内容设置</a></dd>
+						<dd><a href="javascript: void(0);">理论架构</a></dd>
+						<dd><a href="javascript: void(0);">师资团队</a></dd>
+						<dd><a href="javascript: void(0);">学院设置</a></dd>
+						<dd><a href="javascript: void(0);">社团活动</a></dd>
+					</dl>
+					<dl>
+						<dt><a href="javascript: void(0);">合作案例</a></dt>
+						<dd><a href="javascript: void(0);">视频资料</a></dd>
+						<dd><a href="javascript: void(0);">文字照片</a></dd>
+						<dd><a href="javascript: void(0);">合作学校</a></dd>
+					</dl>
+					<dl>
+						<dt><a href="javascript: void(0);">师哥师姐</a></dt>
+						<dd><a href="javascript: void(0);">师哥师姐</a></dd>
+					</dl>
+					<dl>
+						<dt><a href="javascript: void(0);">参加活动</a></dt>
+						<dd><a href="javascript: void(0);">2014冬</a></dd>
+						<dd><a href="javascript: void(0);">报名申请</a></dd>
+					</dl>
+					<dl>
+						<dt><a href="javascript: void(0);">联系我们</a></dt>
+						<dd><a href="javascript: void(0);">官方微信</a></dd>
+						<dd><a href="javascript: void(0);">联系我们</a></dd>
+						<dd><a href="javascript: void(0);">加入我们</a></dd>
+					</dl>
+				</div>
+    			<!-- End  : footer信息 -->
+    		</div>
     	
+    	</div>
     </div>
     
     <!-- Pandaroid: Put js at bottom to load faster -->
