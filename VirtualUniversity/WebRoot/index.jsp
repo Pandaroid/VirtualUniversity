@@ -40,6 +40,10 @@
 			height: 70px;
 			vertical-align: middle;
 		}
+		
+		.schools-title {
+			font-size: 14px; padding: 10px 0 5px 0; color: #036;
+		}
 	</style>
 	
 	<link rel="icon" type="image/x-icon" href="favicon.ico" />
@@ -152,6 +156,20 @@
     		</div>
     		<!-- End  : 视频、新闻等信息展示 -->
     	</div>
+    	<div class="row-fluid">
+    		<div style="width: 960px; height: 1px; margin: 0 auto; border-top: 1px solid #d8d8d8;"></div>
+    		<!-- Start: 合作学校信息 -->
+    		<div class="span12" style="width: 960px;">
+    			<h2>
+    				<a class="schools-title" href="http://www.modeluniv.com/index.php?m=Article&amp;a=index&amp;id=3" target="_blank">合作过的学校</a>
+    			</h2>
+    			<div style="color: #666; font-size: 12px; line-height: 22px;">
+    				重庆市合川中学 | 重庆市七中 | 河北省唐山一中 | 河北省秦皇岛一中 | 河北省武邑中学 | 河南省新安一高 | 河南省郑州市四十七中 | 黑龙江哈尔滨师范大学附中 | 黑龙江哈尔滨三中 | 黑龙江哈尔滨九中 | 辽宁省金州高级中学 | 辽宁省阜新市高级中学 | 辽宁省盘锦市高级中学 | 辽宁省沈阳市青松中学 | 山东省章丘第四中学 | 山西省怀仁县一中 | 山西省实验中学 | 陕西省西安三中 | 陕西省西安七十中 | 四川省大竹中学 | 四川省遂宁大英中学 | 四川省绵阳南山中学 | 四川省泸县二中 | 浙江省桐乡市高级中学 | 浙江省衢州市第二中学 | 浙江省海宁高级中学
+    			</div>
+    		</div>
+    		<!-- End  : 合作学校信息 -->
+    	</div>
+    	
     </div>
     
     <!-- Pandaroid: Put js at bottom to load faster -->
