@@ -10,7 +10,7 @@
 		.container-fluid, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
 			width: 1000px;
 		}
-		.container-fluid { margin: 0 auto; background-color: #eee; padding: 0; }
+		.container-fluid { margin: 0 auto; background-color: #fff; padding: 0; }
 		a { color:#666666; text-decoration: none; }
 		a:hover { color: #006699; text-decoration: none; }
 		
