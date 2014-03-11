@@ -23,8 +23,8 @@
 		}
 		.pannel-body {
 			border: 1px solid rgb(106, 105, 158);
-			padding: 0 20px 20px;
 		}
+		.pannel-body-article { padding: 0 20px 20px; }
 	</style>
 	
 	<link rel="icon" type="image/x-icon" href="favicon.ico" />
@@ -55,7 +55,7 @@
     				<div class="pannel-header">
 	    				文章
 	    			</div>
-	    			<div class="pannel-body">
+	    			<div class="pannel-body pannel-body-article">
 	    				<h1 style="color: rgb(255, 126, 0); font-size: 24px;">“我的中国梦·成才梦”百校励志巡讲</h1>
 	    				<img alt="" src="img/inspiration/article-pic.jpg" />
 	    				<p style="margin-bottom:0pt; margin-top:0pt; text-align:left;">
