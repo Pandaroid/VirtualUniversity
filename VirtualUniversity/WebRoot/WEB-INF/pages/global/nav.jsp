@@ -27,13 +27,13 @@
                 </a>
                 <ul class="nav">
                   	<li id="nav-index"><a href="index.jsp"  style="border-left: none;">首页</a></li>
-                  	<li><a href="javascript: void(0);">家长大学</a></li>
+                  	<li id="nav-parentUniversity"><a href="parentUniversity.jsp">家长大学</a></li>
                   	<li id="nav-talentsRecruitment"><a href="talentsRecruitment.jsp">优才招聘</a></li>
-                  	<li><a href="javascript: void(0);">励志</a></li>
-                  	<li><a href="javascript: void(0);">师哥师姐</a></li>
-                  	<li><a href="javascript: void(0);">参加活动</a></li>
-                  	<li><a href="javascript: void(0);">报名申请</a></li>
-                    <li><a href="javascript: void(0);" style="border-right: none;">联系我们</a></li>
+                  	<li id="nav-inspiration"><a href="inspiration.jsp">励志</a></li>
+                  	<li id="nav-seniorApprentice"><a href="seniorApprentice.jsp">师哥师姐</a></li>
+                  	<li id="nav-activity"><a href="activity.jsp">参加活动</a></li>
+                  	<li id="nav-apply"><a href="apply.jsp">报名申请</a></li>
+                    <li id="nav-contactUs"><a href="contactUs.jsp" style="border-right: none;">联系我们</a></li>
                 </ul>
             </div>
         </div>

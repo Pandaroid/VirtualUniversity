@@ -3,7 +3,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
   <head>
-    <title>模拟大学 - 优才招聘</title>
+    <title>模拟大学 - 家长大学</title>
 	 
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bs_4_mu.css" />
 	<style type="text/css">
@@ -11,6 +11,8 @@
 			width: 1000px;
 		}
 		.container-fluid { margin: 0 auto; background-color: #eee; padding: 0; }
+		
+		
 	</style>
 	
 	<link rel="icon" type="image/x-icon" href="favicon.ico" />
@@ -28,10 +30,14 @@
     		</div>
     	</div>
     	<div class="row-fluid">
-    		<div class="span12">
-    			优才招聘
+    		<!-- Start: 父母课堂直接拷贝有问题 -->
+    		<div class="span3">
     			
     		</div>
+    		<div class="span9">
+    			
+    		</div>
+    		<!-- End  : 父母课堂直接拷贝有问题 -->
     	</div>
     </div>
     
@@ -40,7 +46,7 @@
     <script	type="text/javascript">
 		(function($) {
 			$(function() {
-				$("#nav-talentsRecruitment").addClass("active");
+				$("#nav-parentUniversity").addClass("active");
 				
 			});
 		})(jQuery);
