@@ -3,7 +3,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
   <head>
-    <title>模拟大学 - 参加活动</title>
+    <title>模拟大学 - 夏令营</title>
 	 
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bs_4_mu.css" />
 	<style type="text/css">
@@ -29,7 +29,7 @@
     	</div>
     	<div class="row-fluid">
     		<div class="span12">
-    			参加活动
+    			夏令营
     			
     		</div>
     	</div>

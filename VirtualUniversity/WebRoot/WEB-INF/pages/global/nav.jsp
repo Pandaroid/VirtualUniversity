@@ -31,8 +31,8 @@
                   	<li id="nav-parentUniversity"><a href="parentUniversity.jsp">家长大学</a></li>
                   	<li id="nav-talentsRecruitment"><a href="talentsRecruitment.jsp">优才招聘</a></li>
                   	<li id="nav-inspiration"><a href="inspiration.jsp">励志</a></li>
-                  	<li id="nav-seniorApprentice"><a href="seniorApprentice.jsp">师哥师姐</a></li>
-                  	<li id="nav-activity"><a href="activity.jsp">参加活动</a></li>
+                  	<li id="nav-seniorApprentice"><a href="seniorApprentice.jsp">薪火相传</a></li>
+                  	<li id="nav-activity"><a href="activity.jsp">夏令营</a></li>
                   	<li id="nav-apply"><a href="apply.jsp">报名申请</a></li>
                     <li id="nav-contactUs"><a href="contactUs.jsp" style="border-right: none;">联系我们</a></li>
                 </ul>
