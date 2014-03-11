@@ -27,6 +27,7 @@
                 </a>
                 <ul class="nav">
                   	<li id="nav-index"><a href="index.jsp"  style="border-left: none;">首页</a></li>
+                  	<li id="nav-academicGifted"><a href="academicGifted.jsp">学能特训</a></li>
                   	<li id="nav-parentUniversity"><a href="parentUniversity.jsp">家长大学</a></li>
                   	<li id="nav-talentsRecruitment"><a href="talentsRecruitment.jsp">优才招聘</a></li>
                   	<li id="nav-inspiration"><a href="inspiration.jsp">励志</a></li>
