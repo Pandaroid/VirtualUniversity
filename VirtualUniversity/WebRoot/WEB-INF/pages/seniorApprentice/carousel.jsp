@@ -135,31 +135,31 @@
   </head>
   
   <body>
-    <section> 
+    <section class="diapo"> 
     	<div style="overflow:hidden; width:920px; height: 239px; margin: 10px auto; padding:10px 20px;"> 
                 <div class="pix_diapo">
-					<div data-thumb="img/carousel/thumbs/carousel-4.jpg" data-time="7000">
+					<div data-thumb="img/seniorApprentice/carousel/thumbs/sa-c-1.jpg" data-time="7000">
                         <img src="img/seniorApprentice/carousel/sa-c-1.jpg" />
                         <div class="caption elemHover fromLeft">
                             模拟大学辅导员
                         </div>
                     </div>
                     
-                    <div data-thumb="img/carousel/thumbs/carousel-1.jpg" data-time="7000">
+                    <div data-thumb="img/seniorApprentice/carousel/thumbs/sa-c-2.jpg" data-time="7000">
                         <img src="img/seniorApprentice/carousel/sa-c-2.jpg" />
                         <div class="caption elemHover fromRight">
                             有人把他们当榜样
                         </div>
                     </div>
                     
-                    <div data-thumb="img/carousel/thumbs/carousel-2.jpg" data-time="7000">
+                    <div data-thumb="img/seniorApprentice/carousel/thumbs/sa-c-3.jpg" data-time="7000">
                         <img src="img/seniorApprentice/carousel/sa-c-3.jpg"> 
                         <div class="caption elemHover fromLeft">
                             也有人说他们是灯塔
                         </div>
                     </div>
                     
-                    <div data-thumb="img/carousel/thumbs/carousel-3.jpg" data-time="7000">
+                    <div data-thumb="img/seniorApprentice/carousel/thumbs/sa-c-4.jpg" data-time="7000">
                         <img src="img/seniorApprentice/carousel/sa-c-4.jpg">
                         <div class="caption elemHover fromRight">
                             一群可爱，无私，热爱生活的伙伴！

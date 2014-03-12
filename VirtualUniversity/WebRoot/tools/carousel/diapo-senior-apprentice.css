@@ -38,7 +38,7 @@
 #pix_pag {
 	margin: 0 auto;
 	position: relative;
-	width: 940px;
+	width: 900px;
 	z-index: 1002;
 }
 #pix_commands {
@@ -145,7 +145,7 @@
 .elemHover {
 	position: absolute;
 }
-.caption {
+section.diapo .caption {
 	background: rgba(0, 0, 0, 0.8);
     .filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#cc000000, endColorstr=#cc000000);
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#cc000000, endColorstr=#cc000000)\9;
@@ -154,7 +154,7 @@
 	display: block;
 	font-size: 13px;
 	padding: 5px 20px;
-	width: 900px;
+	width: 880px;
 }
 .ui-loader {
 	display: none;
