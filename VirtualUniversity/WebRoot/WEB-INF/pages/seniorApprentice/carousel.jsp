@@ -3,9 +3,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
   <head>
-    <title>模拟大学 - 主页轮播</title>
+    <title>模拟大学 - 薪火相传轮播</title>
 	 
-	<link rel='stylesheet' id='style-css'  href='tools/carousel/diapo.css' type='text/css' media='all' />
+	<link rel='stylesheet' id='style-css'  href='tools/carousel/diapo-senior-apprentice.css' type='text/css' media='all' />
 	<style type="text/css">
 		section {
 			display: block;
@@ -129,46 +129,40 @@
 			background: url(tools/carousel/images/demo/list-error.png) no-repeat 15px center;
 		    padding-left: 38px!important;
 		}
-		.pix_diapo .caption { width: 920px; }
+		.pix_diapo .caption { width: 880px; }
 	</style>
 	
   </head>
   
   <body>
     <section> 
-    	<div style="overflow:hidden; width:960px; height: 339px; margin: 10px auto; padding:10px 20px;"> 
+    	<div style="overflow:hidden; width:920px; height: 239px; margin: 10px auto; padding:10px 20px;"> 
                 <div class="pix_diapo">
 					<div data-thumb="img/carousel/thumbs/carousel-4.jpg" data-time="7000">
-                        <img src="img/carousel/carousel-4.jpg" />
+                        <img src="img/seniorApprentice/carousel/sa-c-1.jpg" />
                         <div class="caption elemHover fromLeft">
-                            2013年夏，模拟大学圆满成功！
+                            模拟大学辅导员
                         </div>
                     </div>
                     
                     <div data-thumb="img/carousel/thumbs/carousel-1.jpg" data-time="7000">
-                        <img src="img/carousel/carousel-1.jpg" />
-                        <div class="caption elemHover fromLeft">
-                            2014年冬，模拟大学圆满成功！
+                        <img src="img/seniorApprentice/carousel/sa-c-2.jpg" />
+                        <div class="caption elemHover fromRight">
+                            有人把他们当榜样
                         </div>
                     </div>
                     
                     <div data-thumb="img/carousel/thumbs/carousel-2.jpg" data-time="7000">
-                        <img src="img/carousel/carousel-2.jpg"> 
-                        <div class="caption elemHover fromRight" style="bottom: 25px; padding-bottom:0; color:#0099FF; text-transform:uppercase;">
-                            我的中国梦，成才梦
-                        </div>
-                        <div class="caption elemHover fromLeft" style="padding-top: 0;">
-                            百校励志巡讲，正在进行中 ...
+                        <img src="img/seniorApprentice/carousel/sa-c-3.jpg"> 
+                        <div class="caption elemHover fromLeft">
+                            也有人说他们是灯塔
                         </div>
                     </div>
                     
                     <div data-thumb="img/carousel/thumbs/carousel-3.jpg" data-time="7000">
-                        <img src="img/carousel/carousel-3.jpg">
-                        <div class="caption elemHover fromRight" style="bottom: 25px; padding-bottom:0; color:#0099FF; text-transform:uppercase;">
-                            关注我们
-                        </div>
-                        <div class="caption elemHover fromLeft" style="padding-top:0;">
-                            未来在手中，优普模拟大学微信平台
+                        <img src="img/seniorApprentice/carousel/sa-c-4.jpg">
+                        <div class="caption elemHover fromRight">
+                            一群可爱，无私，热爱生活的伙伴！
                         </div>
                     </div>
                     
@@ -181,7 +175,7 @@
 	<script type="text/javascript" src="jquery/jquery-migrate-1.2.1.js"></script>
 	<script type='text/javascript' src='tools/carousel/scripts/jquery.easing.1.3.js'></script> 
 	<script type='text/javascript' src='tools/carousel/scripts/jquery.hoverIntent.minified.js'></script> 
-	<script type='text/javascript' src='tools/carousel/scripts/diapo.js'></script>
+	<script type='text/javascript' src='tools/carousel/scripts/diapo-senior-apprentice.js'></script>
     <script	type="text/javascript">
 		(function($) {
 			$(function() {
