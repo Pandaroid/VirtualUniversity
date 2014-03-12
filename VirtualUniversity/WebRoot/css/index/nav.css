@@ -6,21 +6,34 @@ body {
 	width: 100%;
 	height: 4px;
 }
+.rainbowDash .dark-green {
+	background-color: #049cdb;
+}
 .rainbowDash .green {
-	background-color: #83EDB8;
+	background-color: #41bece;
+}
+.rainbowDash .light-blue {
+	background-color: #82cc33;
 }
 .rainbowDash .blue {
-	background-color: #50BCB6;
+	background-color: #cde35b;
 }
 .rainbowDash .red {
-	background-color: #EE4256;
+	background-color: #fce62f;
+}
+.rainbowDash .brown {
+	background-color: #ffcc27;
 }
 .rainbowDash .orange {
-	background-color: #FCB64B;
+	background-color: #ff961c;
 }
-.rainbowDash .green, .rainbowDash .blue, .rainbowDash .red, .rainbowDash .orange {
+.rainbowDash .dark-orange {
+	background-color: #e75239;
+}
+
+.rainbowDash div {
 	float: left;
-	width: 25%;
+	width: 12.5%;
 	height: 100%;
 }
 

@@ -14,10 +14,14 @@
   
   <body>
     <div class="rainbowDash">
+    	<div class="dark-green"></div>
 		<div class="green"></div>
+		<div class="light-blue"></div>
 		<div class="blue"></div>
 		<div class="red"></div>
+		<div class="brown"></div>
 		<div class="orange"></div>
+		<div class="dark-orange"></div>
 	</div>
  	<div class="navbar navbar-static-top">
         <div class="navbar-inner">
