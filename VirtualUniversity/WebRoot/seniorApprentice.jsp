@@ -626,12 +626,16 @@
 				$("#nav-seniorApprentice").addClass("active");
 				
 				$(document).on("click", ".ac-pager", function() {
-					var this_ele = $(this), target_id = this_ele.data("target");
-					$("#ac-pagination li.disabled").removeClass("disabled");
-					$(target_id + "-li").addClass("disabled");
-					$(".avatar-container:visible").slideUp("slow", function() {
-						$(target_id).slideDown("slow");
-					});
+					var this_ele = $(this), target_id = this_ele.data("target"),
+						target_li_ele = $(target_id + "-li");
+					if(!target_li_ele.hasClass("disabled")) {
+						$("#ac-pagination li.disabled").removeClass("disabled");
+						target_li_ele.addClass("disabled");
+						$(".avatar-container:visible").slideUp("slow", function() {
+							$(target_id).slideDown("slow");
+						});
+					}
+						
 				});
 			});
 		})(jQuery);
