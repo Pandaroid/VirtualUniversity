@@ -56,7 +56,7 @@
 	    				文章
 	    			</div>
 	    			<div class="pannel-body pannel-body-article">
-	    				<h1 style="color: rgb(255, 126, 0); font-size: 24px;">“我的中国梦·成才梦”百校励志巡讲</h1>
+	    				<h1 style="color: rgb(39, 82, 125); font-size: 24px;">“我的中国梦·成才梦”百校励志巡讲</h1>
 	    				<img alt="" src="img/inspiration/article-pic.jpg" />
 	    				<p style="margin-bottom:0pt; margin-top:0pt; text-align:left;">
 							<font style="font-size: 14px;"><span style="font-weight: bold;">【项目</span><span style="font-weight: bold;">背景</span><span style="font-weight: bold;">】</span></font>
