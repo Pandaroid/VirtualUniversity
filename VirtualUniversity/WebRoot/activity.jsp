@@ -36,15 +36,15 @@
     	</div>
     	<div class="row-fluid">
     		<div class="span12">
-    			<div class="media-container" style="width: 920px; margin: 20px auto; padding: 20px; border: 1px solid #ccc; overflow: hidden;">
+    			<div class="media-container" style="width: 920px; margin: 20px auto; padding: 20px 20px 10px; border: 1px solid #ccc; overflow: hidden;">
     				<div class="media course-media">
-		              	<a class="pull-left" href="javascript: void(0);">
+		              	<a class="pull-left" href="act-BeiJing.jsp">
 		                	<img class="media-object" src="img/activity/BeiJing.jpg" />
 		              	</a>
 		              	<div class="media-body">
 		              		<div class="row-fluid">
 		              			<div class="span7 mid-span">
-		              				<h4 class="media-heading"><a href="javascript: void(0);">北京十大名校VIP营</a></h4>
+		              				<h4 class="media-heading"><a href="act-BeiJing.jsp">北京十大名校VIP营</a></h4>
 		                			北京十大名校夏令营是一个专为立志考入北京名校及对北京名校抱有极大向往的初、高中生设计的，以参观、体验校园文化为主要形式的主题式夏令营。在6天的时间里，营员们将在清华大学、北京大学、人民大学、北京...
 		              			</div>
 		              			<div class="span5">
@@ -54,7 +54,7 @@
 		              				<p>价格：<span class="media-emph">¥3980元</span></p>
 		              				<p>适合人群：初高中学生</p>
 		              				<p>教学目标：励志修学</p>
-		              				<p><a class="btn btn-info btn-block">现在报名</a></p>
+		              				<p><a class="btn btn-info btn-block" href="act-BeiJing.jsp">现在报名</a></p>
 		              			</div>
 		              		</div>
 		                	
@@ -78,14 +78,14 @@
 		              				<p>价格：<span class="media-emph">¥2780元</span></p>
 		              				<p>适合人群：初高中学生</p>
 		              				<p>教学目标：励志修学</p>
-		              				<p><a class="btn btn-info btn-block">现在报名</a></p>
+		              				<p><a class="btn btn-info btn-block" href="javascript: void(0);">现在报名</a></p>
 		              			</div>
 		              		</div>
 		                	
 		              	</div>
 		            </div>
 		            
-		            <div class="media course-media">
+		            <div class="media course-media" style="border-bottom: 0; padding-bottom: 0;">
 		              	<a class="pull-left" href="javascript: void(0);">
 		                	<img class="media-object" src="img/activity/America.jpg" />
 		              	</a>
@@ -102,7 +102,7 @@
 		              				<p>价格：<span class="media-emph">¥13980元</span></p>
 		              				<p>适合人群：初高中学生</p>
 		              				<p>教学目标：励志修学</p>
-		              				<p><a class="btn btn-info btn-block">现在报名</a></p>
+		              				<p><a class="btn btn-info btn-block" href="javascript: void(0);">现在报名</a></p>
 		              			</div>
 		              		</div>
 		                	
