@@ -69,7 +69,53 @@
     						
     					</div>
     					<div class="span8">
-    						右侧的
+    						<div class="row-fluid">
+    							<div class="span12">
+    								<ul id="img-video-tab" class="nav nav-tabs">
+						              	<li class="active"><a href="#img-tab" data-toggle="tab">图片</a></li>
+						              	<li><a href="#video-tab" data-toggle="tab">视频</a></li>
+						            </ul>
+						            <div id="img-video-tab-content" class="tab-content" style="height: 520px;">
+						              	<div class="tab-pane fade in active" id="img-tab">
+						              		<!-- Start: 图片slides -->
+						                	<div style="margin:30px auto;max-width:506px;">
+											    <div id="amazingslider-1" style="display:block;position:relative;margin:16px auto 32px;">
+											        <ul class="amazingslider-slides" style="display:none;">
+											            <li><img src="img/activity/slides/1.jpg" alt="北京大学" /></li>
+											            <li><img src="img/activity/slides/2.jpg" alt="清华大学1" /></li>
+											            <li><img src="img/activity/slides/3.jpg" alt="清华大学2" /></li>
+											            <li><img src="img/activity/slides/4.jpg" alt="清华大学3" /></li>
+											            <li><img src="img/activity/slides/5.jpg" alt="清华大学4" /></li>
+											            <li><img src="img/activity/slides/6.jpg" alt="清华大学5" /></li>
+											        </ul>
+											        <ul class="amazingslider-thumbnails" style="display:none;">
+											            <li><img src="img/activity/slides/thumbs/1-tn.jpg" /></li>
+											            <li><img src="img/activity/slides/thumbs/2-tn.jpg" /></li>
+											            <li><img src="img/activity/slides/thumbs/3-tn.jpg" /></li>
+											            <li><img src="img/activity/slides/thumbs/4-tn.jpg" /></li>
+											            <li><img src="img/activity/slides/thumbs/5-tn.jpg" /></li>
+											            <li><img src="img/activity/slides/thumbs/6-tn.jpg" /></li>
+											        </ul>
+											        <div class="amazingslider-engine" style="display:none;"><a href="http://amazingslider.com">JavaScript Image Slideshow</a></div>
+											    </div>
+											</div>
+											<!-- End  : 图片slides -->
+						              	</div>
+						              	<div class="tab-pane fade" id="video-tab">
+						                	<!-- Start: 视频 -->
+						                	<div style="margin:30px auto;max-width:506px;">
+						                		<embed src="http://player.youku.com/player.php/sid/XNjc4NTQ2MDY4/v.swf" quality="high" width="506" height="390" align="middle" allowscriptaccess="always" allowfullscreen="true" mode="transparent" type="application/x-shockwave-flash">
+						                	</div>
+						                	<!-- End  : 视频 -->
+						              	</div>
+						            </div>
+    								
+    								
+		    								
+    								
+    								
+    							</div>
+    						</div>
     					</div>
     				</div>
     			</div>
@@ -304,7 +350,7 @@
 		    				<div class="row-fluid">
 		    					<div class="span12">
 		    						<div style="margin: 10px 40px;">
-		    							<ul style="list-style: none;">
+		    							<ul style="list-style: none; margin-left: 0;">
 		    								<li style="border-bottom: 1px dotted #ccc;">
 		    									<div class="row-fluid" style="color: #ee711b;">
 		    										<div class="span2 quiz-ans-span">
@@ -363,11 +409,15 @@
     
     <!-- Pandaroid: Put js at bottom to load faster -->
     <script type="text/javascript" src="jquery/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="jquery/jquery-migrate-1.2.1.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="tools/sliderengine/js/amazingslider.js"></script>
+    <script src="tools/sliderengine/js/initslider-1.js"></script>
     <script	type="text/javascript">
 		(function($) {
 			$(function() {
 				$("#nav-activity").addClass("active");
-				
+				$(".sr-bdimgshare").remove();
 			});
 		})(jQuery);
 	</script>
