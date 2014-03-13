@@ -1,6 +1,6 @@
 a:hover { text-decoration: none; }
 .course-detail { 
-	width: 940px;
+	width: 935px;
 	margin: 20px auto;
 	padding: 10px;
 	background-color: #d9edf7;
@@ -19,7 +19,7 @@ a:hover { text-decoration: none; }
 .media-emph { font-weight: bold; color: #3a87ad; }
 
 .d-title {
-	width: 898px;
+	width: 918px;
 	height: 46px;
 	line-height: 46px;
 	padding: 0 20px;
@@ -35,7 +35,7 @@ a:hover { text-decoration: none; }
 	float: left;
 }
 .course-box { padding: 5px; border: 1px solid #ccc; margin-bottom: 20px; }
-.course-detail-container { width: 940px; margin: 0 auto; }
+.course-detail-container { width: 960px; margin: 0 auto; }
 .travel-in-detail {
 	background-image: url(../../img/activity/tbiao.png);
 	background-repeat: no-repeat;
