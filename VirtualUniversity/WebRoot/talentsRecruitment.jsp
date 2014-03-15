@@ -74,7 +74,7 @@
 				  <tbody><tr>
 				    <td><div class="flow_box"><table width="747" cellpadding="0" cellspacing="0">
 				  <tbody><tr>
-				    <td width="156"><img src="img/talentsRecruitment/flow1.jpg" width="156" height="122"></td>
+				    <td width="156"><img src="img/talentsRecruitment/flow1.png" width="156" height="122"></td>
 				    <td><p class="nospace">A、登录<a href="http://job.xueersi.com/">http://job.xueersi.com/</a>网站，在线填写简历。（3个工作日回复）<br>
 				      B、将简历投递在<a href="mailto:xiaoyuanzhaopin@xueersi.com">xiaoyuanzhaopin@xueersi.com</a>。（7个工作日回复）</p></td>
 				  </tr>
@@ -82,36 +82,36 @@
 				</div></td>
 				  </tr>
 				  <tr>
-				    <td height="35" style="padding-left:75px;"><img src="img/talentsRecruitment/arrow.jpg" width="29" height="25"></td>
+				    <td height="35" style="padding-left:75px;"><img src="img/talentsRecruitment/arrow.png" width="29" height="25"></td>
 				  </tr>
 				  <tr>
 				    <td><div class="flow_box"><table width="747" cellpadding="0" cellspacing="0">
 				  <tbody><tr>
-				    <td width="156"><img src="img/talentsRecruitment/flow2.jpg" width="156" height="48"></td>
+				    <td width="156"><img src="img/talentsRecruitment/flow2.png" width="156" height="48"></td>
 				    <td><p class="nospace">初试分为两个环节，笔试和试讲。笔试内容为应聘科目的相关试题。试讲题目为相应科目的一道题。</p></td>
 				  </tr>
 				</tbody></table>
 				</div></td>
 				  </tr>
 				  <tr>
-				    <td height="35" style="padding-left:75px;"><img src="img/talentsRecruitment/arrow.jpg" width="29" height="25"></td>
+				    <td height="35" style="padding-left:75px;"><img src="img/talentsRecruitment/arrow.png" width="29" height="25"></td>
 				  </tr>
 				  <tr>
 				    <td><div class="flow_box"><table width="747" cellpadding="0" cellspacing="0">
 				  <tbody><tr>
-				    <td width="156"><img src="img/talentsRecruitment/flow3.jpg" width="156" height="124"></td>
+				    <td width="156"><img src="img/talentsRecruitment/flow3.png" width="156" height="124"></td>
 				    <td><p class="nospace">通过初试后，我们会安排您参加复试指导，届时，将有专业的培训师帮助您通过复试。</p></td>
 				  </tr>
 				</tbody></table>
 				</div></td>
 				  </tr>
 				  <tr>
-				    <td height="35" style="padding-left:75px;"><img src="img/talentsRecruitment/arrow.jpg" width="29" height="25"></td>
+				    <td height="35" style="padding-left:75px;"><img src="img/talentsRecruitment/arrow.png" width="29" height="25"></td>
 				  </tr>
 				  <tr>
 				    <td><div class="flow_box"><table width="747" cellpadding="0" cellspacing="0">
 				  <tbody><tr>
-				    <td width="156"><img src="img/talentsRecruitment/flow4.jpg" width="156" height="201"></td>
+				    <td width="156"><img src="img/talentsRecruitment/flow4.png" width="156" height="201"></td>
 				    <td><p class="nospace">通过复试后，我们将及时安排您的签约以及入职事宜。</p></td>
 				  </tr>
 				</tbody></table>
