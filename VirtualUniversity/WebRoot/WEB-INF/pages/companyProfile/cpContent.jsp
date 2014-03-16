@@ -18,7 +18,7 @@
   
   <body>
     <div class="container-fluid">
-    	<div class="row-fluid">
+    	<div class="row-fluid" style="margin: 20px 0;">
     		<div class="span2">
     		
 				<div class="well" data-spy="affix" style="padding-left: 0;">
@@ -73,10 +73,41 @@
     				<img alt="" style="width: 100%;" src="img/companyProfile/advantages.jpg" />
     			</div>
     			<div id="cpsb-core" class="hide cpsb-cont">
-    				<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-	    			<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-	    			<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-	    			核心团队
+    				<!-- Start: 第一排 -->
+    				<div class="row-fluid">
+    					<div class="span4">
+    						<img alt="" style="width: 100%;" src="img/companyProfile/cp-core-1.jpg" />
+    					</div>
+    					<div class="span8">
+    						<p><span style="color: #ff0000"><span style="font-size: 16px"><strong>黄一鸣<br>
+				            </strong></span></span>今日英才创始人<br>
+				            今日英才董事长兼总裁<br>
+				            &nbsp;</p>
+				            <p>&nbsp; &nbsp;一个为着“责任、荣誉、使命”而执着奋斗的热血青年；一个把“舞台视为生命、听众当成国家”的精英演说家；一个决定把一生奉献给教育事业，用“科技改变教育，教育铸就英才”的精英教育家。<br>
+				            <br>
+				            &nbsp; &nbsp; 从今日英才成立那天起，黄一鸣就下定决心，要将今日英才在：15年时间做成像联想、海尔、万科一样中国伟大的教育公司；30年内做成像苹果、可口可乐、IBM一样，世界伟大的教育公司；最终使今日英才成为像《论语》《道德经》《孙子兵法》一样流传后世的文化品牌。<br>
+				            &nbsp;</p>
+    					</div>
+    				</div>
+    				<!-- End  : 第一排 -->
+    				<div style="width: 100%; height: 20px;"></div>
+    				<!-- Start: 第二排 -->
+    				<div class="row-fluid">
+    					<div class="span4">
+    						<img alt="" style="width: 100%;" src="img/companyProfile/cp-core-1.jpg" />
+    					</div>
+    					<div class="span8">
+    						<p><span style="color: #ff0000"><span style="font-size: 16px"><strong>黄二鸣<br>
+				            </strong></span></span>今日英才副创始人<br>
+				            今日英才副董事长兼总裁<br>
+				            &nbsp;</p>
+				            <p>&nbsp; &nbsp;一个为着“责任、荣誉、使命”而执着奋斗的热血青年；一个把“舞台视为生命、听众当成国家”的精英演说家；一个决定把一生奉献给教育事业，用“科技改变教育，教育铸就英才”的精英教育家的弟弟。<br>
+				            <br>
+				            &nbsp; &nbsp; 他哥哥从今日英才成立那天起，黄一鸣就下定决心，要将今日英才在：15年时间做成像联想、海尔、万科一样中国伟大的教育公司；30年内做成像苹果、可口可乐、IBM一样，世界伟大的教育公司；最终使今日英才成为像《论语》《道德经》《孙子兵法》一样流传后世的文化品牌。<br>
+				            &nbsp;</p>
+    					</div>
+    				</div>
+    				<!-- End  : 第二排 -->
     			</div>
 	    		<div id="cpsb-culture" class="hide cpsb-cont">
     				<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
