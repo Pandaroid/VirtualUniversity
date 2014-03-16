@@ -29,14 +29,16 @@
     	</div>
     	<div class="row-fluid">
     		<div class="span12">
-    			公司简介
+    			<!-- Start: 引入公司简介 -->
+    			<%@ include file="WEB-INF/pages/companyProfile/cpContent.jsp"%>
+	            <!-- End  : 引入公司简介 -->
     			
     		</div>
     	</div>
     </div>
     
     <!-- Pandaroid: Put js at bottom to load faster -->
-    <script type="text/javascript" src="jquery/jquery-1.11.0.min.js"></script>
+    <!-- <script type="text/javascript" src="jquery/jquery-1.11.0.min.js"></script> -->
     <script	type="text/javascript">
 		(function($) {
 			$(function() {
