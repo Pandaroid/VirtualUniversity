@@ -6,11 +6,15 @@
     <title>模拟大学 - 公司简介 - 主要内容页面</title>
 	 
 	<style type="text/css">
-		.bs-docs-sidenav .icon-chevron-right {
-			float: right;
-			margin-top: 2px;
-			margin-right: -6px;
-			opacity: .25;
+		.cpsb-cont {
+			border: 1px solid #ccc;
+			padding: 20px;
+			min-height: 108px;
+		}
+		
+		.agent_con {
+			line-height: 24px;
+			font-size: 14px;
 		}
 	</style>
 	
@@ -110,16 +114,98 @@
     				<!-- End  : 第二排 -->
     			</div>
 	    		<div id="cpsb-culture" class="hide cpsb-cont">
-    				<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-	    			<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-	    			<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-	    			企业文化
+    				
+    				<div class="age_li_about" id="showstate">
+                    	<div style="line-height: 42px; padding-left: 19px; background: url(img/companyProfile/history-tit-bg.jpg) no-repeat; height: 48px"><strong><span style="font-size: 16px"><span style="color: #666666">今日英才企业文化</span></span></strong></div>
+						<div style="background: #c10005">
+							<p>&nbsp; <span style="font-size: 16px"><span style="color: #ffffff"><strong>今日之英才内涵<br>
+							</strong></span></span><span style="color: #ffffff"><br>
+							&nbsp; <strong>具有责任感、荣誉感、使命感，对社会具有推动能力与奉献精神的杰出人才!<br>
+							</strong><br>
+							&nbsp; 今日英才内涵体现了以下三方面的含义：<br>
+							&nbsp; 1.今日之英才必须具备精英的精神：责任、荣誉、使命；<br>
+							&nbsp; 2.今日之英才必须努力提升自己能力，成为能推动社会进步的人；<br>
+							&nbsp; 3.今日之英才必须具有奉献精神，愿意通过自己努力为社会做奉献。<br>
+							</span>&nbsp;</p>
+							</div>
+							<div style="background: #f1b217">
+							<p>&nbsp; <span style="font-size: 16px"><strong><span style="color: #ffffff">今日英才使命<br>
+							</span></strong></span><span style="color: #ffffff">&nbsp; 1.帮助1亿中国人改变财商观念；<br>
+							&nbsp; 2.帮助1000万中国人财富明显增长；<br>
+							&nbsp; 3.帮助100万中国人实现财富自由。<br>
+							<br>
+							</span></p>
+							</div>
+							<p>&nbsp;</p>
+							<div style="background: #d84210">
+							<p>&nbsp; <span style="font-size: 16px"><strong><span style="color: #ffffff">今日英才愿景<br>
+							</span></strong></span><span style="color: #ffffff"><br>
+							&nbsp; <strong>15年成为中国伟大的教育品牌!30年成为世界伟大的教育品牌!最终发展成为具有传世意义的文化品牌!<br>
+							</strong><br>
+							&nbsp; 今日英才愿景体现了以下三方面的含义：<br>
+							&nbsp; 1.用15年时间，成为像联想、海尔、万科一样中国伟大的教育品牌公司；<br>
+							&nbsp; 2.用30年时间，成为像可口可乐、IBM、苹果一样世界伟大的教育品牌公司；<br>
+							&nbsp; 3.最终以成为像《道德经》、《论语》一样具有传世意义的文化品牌为终极愿景。<br>
+							<br>
+							</span>&nbsp;</p>
+							</div>
+							<p>&nbsp;</p>
+							<div style="background: #e67817">&nbsp; <span style="font-size: 16px"><span style="color: #ffffff"><strong>今日英才价值观<br>
+							</strong></span></span><span style="color: #ffffff"><br>
+							&nbsp; <strong>以精英精神为核心，秉承责任、荣誉、使命，基于“道德人”的人性假设，为股东、员工、客户提供最大程度的精神和物质价值。<br>
+							</strong><br>
+							&nbsp; 企业价值观体现了以下三方面的含义：<br>
+							&nbsp; 1.秉承责任、荣誉、使命，以精英精神为魂魄；<br>
+							&nbsp; 2.以“道德人”的人性假设为前提；<br>
+							&nbsp; 3.以为股东、员工、客户提供最大程度的精神和物质价值为宗旨。<br>
+							</span>&nbsp;</div>
+							<p>&nbsp;</p>
+							<div style="background: #bf9f5b">&nbsp; <span style="font-size: 16px"><span style="color: #ffffff"><strong>今日英才发展定位：</strong></span></span><span style="color: #ffffff"><strong>在线投资理财教育平台<br>
+							</strong><br>
+							&nbsp; 发展定位体现了以下三方面的含义：<br>
+							&nbsp; 1.以教育为核心；<br>
+							&nbsp; 2.以帮助学员实现财富自由为使命；<br>
+							&nbsp; 3.以互联网和移动互联网为平台支撑。<br>
+							</span>&nbsp;</div>
+							<p>&nbsp;</p>
+							<div style="background: #0092db">&nbsp; <span style="font-size: 16px"><span style="color: #ffffff"><strong>今日英才发展理念<br>
+							</strong></span></span><span style="color: #ffffff"><br>
+							&nbsp; <strong>科技改变教育，教育铸就英才，英才推动社会进步<br>
+							</strong><br>
+							&nbsp; 今日英才发展理念体现了以下三方面的含义：<br>
+							&nbsp; 1.体现今日英才以科技为支撑的教育特色；<br>
+							&nbsp; 2.体现今日英才以培养精英人才的基本目的；<br>
+							&nbsp; 3.体现今日英才以推动社会进步的核心使命。 </span>
+							<p>&nbsp;</p>
+						</div>
+						<p>&nbsp;</p>
+                    </div>
+    				
     			</div>
     			<div id="cpsb-history" class="hide cpsb-cont">
-    				<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-	    			<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-	    			<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-	    			公司历程
+    				
+    				<div class="age_li_about" id="showstate">
+	                    <div style="line-height: 42px; padding-left: 30px; background: url(img/companyProfile/history-tit-bg.jpg) no-repeat; height: 48px"><strong><span style="font-size: 16px"><span style="color: #666666">今日英才发展历程</span></span></strong></div>
+						<p>&nbsp;</p>
+						<p>&nbsp; <span style="color: #ff0000"><strong>今日英才财富商学院成长轨迹<br>
+						</strong></span><br>
+						&nbsp; <strong>2008年，</strong>北京今日英才教育科技有限公司由创始人黄一鸣先生在北京中关村正式注册创立!<br>
+						<br>
+						&nbsp; <strong>2010年，</strong>出版《30天演讲速成》光盘，当年销售5万套，帮助5万人提升演讲口才能力。<br>
+						<br>
+						&nbsp; <strong>2011年，</strong>《30天演讲速成》光盘销售15万套，营业额突破6000万，帮助15万人提升演讲口才能力!<br>
+						<br>
+						&nbsp; <strong>2012年，</strong>今日英才因扩张过快，亏损1000万，公司面临破产。<br>
+						<br>
+						&nbsp; <strong>2012年11月，</strong>今日英才创始人黄一鸣先生在亏损1000万情况下，依然花费30万，系统参加国内融资、投资、资本课程。并亲自通过融资、投资、资本实操，使公司迅速走出困境。<br>
+						<br>
+						&nbsp; <strong>2013年3月，</strong>今日英才花费30万请中国最大咨询公司和君咨询做战略咨询，今日英才定位在线财富教育!<br>
+						<br>
+						&nbsp; <strong>2013年4月，</strong>今日英才创始人黄一鸣先生结合国内顶级融资、投资等资本课程，与100多本融资、投资理论书籍，以及自己的亲自实操经验。经过半年努力，总结研发了一套可以帮助您快速实现财富自由的《投资理财》实战课程体系。<br>
+						<br>
+						&nbsp; <strong>2013年7月，</strong>今日英才首期《演说与资本》在北京隆重召开。</p>
+					</div>
+    				
     			</div>
     			<!-- End  : 公司简介的内容 -->
     		</div>
@@ -138,8 +224,8 @@
 					var this_ptr = $(this), target_id = this_ptr.data("target");
 					$("#cp-sb-container li.active").removeClass("active");
 					this_ptr.parent().addClass("active");
-					$(".cpsb-cont:visible").slideUp("slow");
-					$(target_id).slideDown("slow");
+					$(".cpsb-cont:visible").hide();
+					$(target_id).show();
 				});
 			});
 		})(jQuery);
