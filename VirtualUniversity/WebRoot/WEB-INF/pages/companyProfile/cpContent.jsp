@@ -33,7 +33,7 @@
 					
 				</div>    		
     		</div>
-    		<div class="span10" style="overflow: hidden; margin-left: 5px;">
+    		<div class="span10" style="overflow: hidden; margin-left: 2px;">
     			<!-- Start: 公司简介的内容 -->
     			<div id="cpsb-about" class="cpsb-cont">
     				
@@ -70,10 +70,7 @@
     				
     			</div>
 	    		<div id="cpsb-advantage" class="hide cpsb-cont">
-    				<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-	    			<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-	    			<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-	    			优势
+    				<img alt="" style="width: 100%;" src="img/companyProfile/advantages.jpg" />
     			</div>
     			<div id="cpsb-core" class="hide cpsb-cont">
     				<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />

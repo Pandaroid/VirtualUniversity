@@ -631,9 +631,8 @@
 					if(!target_li_ele.hasClass("disabled")) {
 						$("#ac-pagination li.disabled").removeClass("disabled");
 						target_li_ele.addClass("disabled");
-						$(".avatar-container:visible").slideUp("slow", function() {
-							$(target_id).slideDown("slow");
-						});
+						$(".avatar-container:visible").slideUp("slow");
+						$(target_id).slideDown("slow");
 					}
 						
 				});
