@@ -34,11 +34,11 @@
     		<div class="span12">
     			<div class="media-container">
     				<div class="media">
-		              	<a class="pull-left" href="memory.jsp">
+		              	<a class="pull-left" href="memoryNew.jsp">
 		                	<img class="media-object" style="width: 64px; height: 64px;" src="img/academicGifted/memory.jpg" />
 		              	</a>
 		              	<div class="media-body">
-		                	<h4 class="media-heading"><a href="memory.jsp">新思维快速记忆课程</a></h4>
+		                	<h4 class="media-heading"><a href="memoryNew.jsp">新思维快速记忆课程</a></h4>
 		                	快速记忆技能课程培训同步拔高 思维新境界：思维导图结合九大学科 神奇记忆法：独特的记忆方法结合个性化教育 适合人群：中小学学生及职业白领 免费名师答疑.. (2011-09-22)
 		              	</div>
 		            </div>
