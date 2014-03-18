@@ -134,7 +134,7 @@
 							新闻推送
 						</h2>
 						<div class="news-cell">
-							<a href="http://www.modeluniv.com/index.php?m=Article&amp;a=show&amp;id=23" target="_blank">
+							<a href="newsDetail1.jsp" target="_blank">
 								<span class="news-title" style="padding-top: 0;">优谱模拟大学辅导员招聘海报</span>
 								<span class="news-date">2013-11-29</span>
 								<span class="news-txt">经实地考察发现，在校园宣传栏贴海报就像往湖面扔了一块石子，虽然刚开始会激起一点涟漪，但用不了多久，就会归于平静，仿佛什么都没发生过。因此，你...</span>
