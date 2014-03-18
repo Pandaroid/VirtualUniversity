@@ -134,21 +134,21 @@
 							新闻推送
 						</h2>
 						<div class="news-cell">
-							<a href="newsDetail1.jsp" target="_blank">
+							<a href="newsDetail1.jsp">
 								<span class="news-title" style="padding-top: 0;">优谱模拟大学辅导员招聘海报</span>
 								<span class="news-date">2013-11-29</span>
 								<span class="news-txt">经实地考察发现，在校园宣传栏贴海报就像往湖面扔了一块石子，虽然刚开始会激起一点涟漪，但用不了多久，就会归于平静，仿佛什么都没发生过。因此，你...</span>
 							</a>
 						</div>
 						<div class="news-cell">
-							<a href="http://www.modeluniv.com/index.php?m=Article&a=show&id=22" target="_blank">
+							<a href="newsDetail1.jsp">
 								<span class="news-title">模拟大学-辅导员招聘</span>
 								<span class="news-date">2013-11-26</span>
 								<span class="news-txt">这个寒假怎么过，来优谱模拟大学做点有意义的事吧！ 插入视频链接：你在高中时是否也有过迷茫、困惑的时候，在学习上是否也有制胜的方法，在大学和专...</span>
 							</a>
 						</div>
 						<div class="news-cell">
-							<a href="http://www.modeluniv.com/index.php?m=Article&a=show&id=21" target="_blank">
+							<a href="newsDetail1.jsp">
 								<span class="news-title">模拟大学-如何做学业规划</span>
 								<span class="news-date">2013-11-25</span>
 								<span class="news-txt">模拟大学-如何做学业规划 每次给高中生讲学业规划的时候，很多人的反应都是不知道什么是学业规划，该如何规划，还有的说经常规划，但是每次都执行不...</span>
@@ -156,17 +156,17 @@
 						</div>
 						<ul class="index_pic">
 							<li>
-								<a href="http://www.modeluniv.com/index.php?m=Article&amp;a=index&amp;id=3">
+								<a href="javascript: void(0);">
 									<img src="img/indexPic/index-pic-1.jpg">
 								</a>
 							</li>
 							<li>
-								<a href="http://www.modeluniv.com/index.php?m=Article&amp;a=index&amp;id=3">
+								<a href="javascript: void(0);">
 									<img src="img/indexPic/index-pic-2.jpg">
 								</a>
 							</li>
 							<li style="margin-right: 0;">
-								<a href="http://www.modeluniv.com/index.php?m=Article&amp;a=index&amp;id=3">
+								<a href="javascript: void(0);">
 									<img src="img/indexPic/index-pic-3.jpg">
 								</a>
 							</li>
