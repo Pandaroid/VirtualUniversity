@@ -27,7 +27,7 @@
         <div class="navbar-inner">
             <div class="container-fluid" style="width: auto; padding: 0 20px; background-color: #f6f6f6;">
                 <a class="brand" href="javascript: void(0);">
-                	<img alt="Model University" src="img/logo.gif" />
+                	<img style="max-height: 60px;" alt="Model University" src="img/hx-logo.gif" />
                 </a>
                 <ul class="nav">
                   	<li id="nav-index"><a href="index.jsp"  style="border-left: none;">首页</a></li>
