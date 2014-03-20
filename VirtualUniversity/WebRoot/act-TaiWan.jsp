@@ -81,7 +81,7 @@
 						                	<div style="margin:30px auto;max-width:506px;">
 											    <div id="amazingslider-1" style="display:block;position:relative;margin:16px auto 32px;">
 											        <ul class="amazingslider-slides" style="display:none;">
-											            <li><img src="img/activity/slides/1.jpg" alt="台湾大学" /></li>
+											            <li><img src="img/activity/slides/tw-1.jpg" alt="台湾大学" /></li>
 											            <li><img src="img/activity/slides/2.jpg" alt="清华大学1" /></li>
 											            <li><img src="img/activity/slides/3.jpg" alt="清华大学2" /></li>
 											            <li><img src="img/activity/slides/4.jpg" alt="清华大学3" /></li>
@@ -89,7 +89,7 @@
 											            <li><img src="img/activity/slides/6.jpg" alt="清华大学5" /></li>
 											        </ul>
 											        <ul class="amazingslider-thumbnails" style="display:none;">
-											            <li><img src="img/activity/slides/thumbs/1-tn.jpg" /></li>
+											            <li><img src="img/activity/slides/thumbs/tw-1-tn.jpg" /></li>
 											            <li><img src="img/activity/slides/thumbs/2-tn.jpg" /></li>
 											            <li><img src="img/activity/slides/thumbs/3-tn.jpg" /></li>
 											            <li><img src="img/activity/slides/thumbs/4-tn.jpg" /></li>
