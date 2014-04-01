@@ -138,21 +138,21 @@
     <section> 
     	<div style="overflow:hidden; width:960px; height: 339px; margin: 10px auto; padding:10px 20px;"> 
                 <div class="pix_diapo">
-					<div data-thumb="img/carousel/thumbs/carousel-4.jpg" data-time="7000">
+					<div data-thumb="img/carousel/thumbs/carousel-4.jpg" data-time="7000" data-href="http://www.baidu.com/">
                         <img src="img/carousel/carousel-4.jpg" />
                         <div class="caption elemHover fromLeft">
                             2013年夏，模拟大学圆满成功！
                         </div>
                     </div>
                     
-                    <div data-thumb="img/carousel/thumbs/carousel-1.jpg" data-time="7000">
+                    <div data-thumb="img/carousel/thumbs/carousel-1.jpg" data-time="7000" data-href="http://www.so.com/">
                         <img src="img/carousel/carousel-1.jpg" />
                         <div class="caption elemHover fromLeft">
                             2014年冬，模拟大学圆满成功！
                         </div>
                     </div>
                     
-                    <div data-thumb="img/carousel/thumbs/carousel-2.jpg" data-time="7000">
+                    <div data-thumb="img/carousel/thumbs/carousel-2.jpg" data-time="7000" data-href="http://www.google.com.hk/">
                         <img src="img/carousel/carousel-2.jpg"> 
                         <div class="caption elemHover fromRight" style="bottom: 25px; padding-bottom:0; color:#0099FF; text-transform:uppercase;">
                             我的中国梦，成才梦
@@ -162,8 +162,10 @@
                         </div>
                     </div>
                     
-                    <div data-thumb="img/carousel/thumbs/carousel-3.jpg" data-time="7000">
-                        <img src="img/carousel/carousel-3.jpg">
+                    <div data-thumb="img/carousel/thumbs/carousel-3.jpg" data-time="7000" data-href="http://translate.google.cn/?hl=en">
+                    	<a >
+                    		<img src="img/carousel/carousel-3.jpg">
+                    	</a>
                         <div class="caption elemHover fromRight" style="bottom: 25px; padding-bottom:0; color:#0099FF; text-transform:uppercase;">
                             关注我们
                         </div>
@@ -186,7 +188,12 @@
 		(function($) {
 			$(function() {
 				$('.pix_diapo').diapo();
-				
+				$(document).on("click", '.pix_diapo > div', function() {
+					var my_href = $(this).data("href");
+					if(my_href) {
+						window.location.href = my_href;
+					}
+				});
 			});
 		})(jQuery);
 	</script>

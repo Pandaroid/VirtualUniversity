@@ -25,7 +25,7 @@
 	</div>
  	<div class="navbar navbar-static-top">
         <div class="navbar-inner">
-            <div class="container-fluid" style="width: auto; padding: 0 20px; background-color: #f6f6f6;">
+            <div class="container-fluid" style="width: 900px; padding: 0 20px; background-color: #f6f6f6;">
                 <a class="brand" href="javascript: void(0);">
                 	<img style="max-height: 60px;" alt="Model University" src="img/hx-logo.gif" />
                 </a>

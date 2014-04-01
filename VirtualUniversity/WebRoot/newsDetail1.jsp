@@ -922,6 +922,9 @@
 					$(".nd-divs:visible").addClass("hide");
 					$(target_id).removeClass("hide");
 				});
+				
+				var tmp_idx = <%=request.getParameter("idx") %>;
+				$("#news_list .nl-idx[data-target='#nd-div-" + tmp_idx + "']").click();
 			});
 		})(jQuery);
 	</script>
